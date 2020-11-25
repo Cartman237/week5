@@ -1,0 +1,84 @@
+html{
+	text-align: center;
+	font-family: Tahoma;
+	background-image: url("achtergrond.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(0, 155, 0);
+}
+
+h1{
+	font-size: 50px;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+
+p {
+	display: inline;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.knopje{
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+}
+
+.grid{
+	display: flex;
+	flex-flow: row wrap;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	align-content: center;
+	height: 475px;
+	width: 725px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.square{
+	height: 125px;
+	width: 125px;
+	border: 2.5px solid black;
+	margin: 1.5px;
+	background-color: rgb(245, 152, 66);
+	opacity: 0.5;
+	border: hidden;
+}
+
+.mole0 {
+	background-image: url('monty_mole0.png');
+	background-size: 125px 125px;
+	opacity: 1;
+}
+
+.mole1 {
+	background-image: url('monty_mole0.png');
+	background-size: 125px 125px;
+	opacity: 1;
+}
+
+.mole2 {
+	background-image: url('monty_mole0.png');
+	background-size: 125px 125px;
+	opacity: 1;
+}
+
+.mole3 {
+	background-image: url('monty_mole0.png');
+	background-size: 125px 125px;
+	opacity: 1;
+}
+
+.mole4 {
+	background-image: url('monty_mole1.png');
+	background-size: 125px 125px;
+	opacity: 1;
+}
+
+.mole5 {
+	background-image: url('monty_mole2.png');
+	background-size: 125px 125px;
+	opacity: 1;
+}

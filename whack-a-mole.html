@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Whack A Teacher</title>
+		<link rel="stylesheet" href="whack-a-mole.css">
+	</head>
+
+	<body>
+		<h1>Whack a Teacher!</h1>
+
+		<p>Resterende tijd: </p>
+		<p id="time-left">10</p>
+		
+		<img src="hammer.png" id="dehamer" width="100px" style="position: absolute;">
+		<br>
+		<button class="knopje" id="start" onclick="molletje();setInterval(timer,1000);">Spel starten</button>
+
+		<div class="grid">
+			<div class="square" id="1"></div>
+			<div class="square" id="2"></div>
+			<div class="square" id="3"></div>
+			<div class="square" id="4"></div>
+			<div class="square" id="5"></div>
+			<div class="square" id="6"></div>
+			<div class="square" id="7"></div>
+			<div class="square" id="8"></div>
+			<div class="square" id="9"></div>
+			<div class="square" id="10"></div>
+			<div class="square" id="11"></div>
+			<div class="square" id="12"></div>
+			<div class="square" id="13"></div>
+			<div class="square" id="14"></div>
+			<div class="square" id="15"></div>
+		</div>
+
+		<p>Je score = </p>
+		<p id="score"></p>
+
+		<audio id="audio" src="punch_or_whack_-Vladimir-403040765.mp3"></audio>
+	</body>
+
+	<script src="whack-a-mole.js"></script>
+</html>
